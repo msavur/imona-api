@@ -1,7 +1,6 @@
 package com.imona.api.model.response;
 
 
-import com.imona.api.model.dto.ActionDto;
 import com.imona.api.model.dto.BaseDto;
 import com.imona.api.model.dto.GameDto;
 import com.imona.core.enums.Gender;
@@ -11,7 +10,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Date;
-import java.util.List;
 
 @Getter
 @Setter
@@ -26,5 +24,4 @@ public class PlayerResponse {
     private boolean flag;
     private BaseDto city;
     private GameDto game;
-    private List<ActionDto> actions;
 }

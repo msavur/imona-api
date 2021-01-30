@@ -1,7 +1,6 @@
 package com.imona.api.model.response;
 
 
-import com.imona.api.model.dto.ActionDto;
 import com.imona.api.model.dto.PlayerDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -23,5 +22,4 @@ public class GameResponse implements Serializable {
     private String description;
     private String logo;
     private List<PlayerDto> players;
-    private List<ActionDto> actions;
 }
